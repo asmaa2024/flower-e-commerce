@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce website</title>
+    <!-- font awesone cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+    <!-- header section starts -->
+    <header>
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+        <a href="#" class="logo">flower<span>.</span></a>
+        
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <span class="quantity" id="total-price">0</span>
+            <a href="#" class="fas fa-user"></a>
+        </div>
+        
+    </header>
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+    <section class="home" id="home">
+        
+        <div class="content">
+            <h3>fresh flower</h3>
+            <span> natural & beautiful flowers </span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus molestiae animi quia ratione. Quos quasi inventore, vitae cumque aspernatur ratione iure aut temporibus maiores officiis itaque quaerat beatae nostrum laborum!</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </section>
+    <!-- home section ends  -->
+
+    <!-- product section starts -->
+    <section class="product" id="products">
+        <h1 class="heading">Our <span>Products</span></h1>
+        <div class="box-container">
+            
+            <div class="box">
+                <div class="image">
+                    <img src="images/img-1.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn" id="add-1">add to cart</a>
+                        <a href="#" class="fas fa-trash" id="remove-1"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>flower box</h3>
+                    <div class="price" id="price-1">$12.99</div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/img-2.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">add to cart</a>
+                        <a href="#" class="fas fa-trash"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>flower bouquet</h3>
+                    <div class="price">$12.99</div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/img-3.png" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">add to cart</a>
+                        <a href="#" class="fas fa-trash"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>flower pot</h3>
+                    <div class="price">$12.99</div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/img-4.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">add to cart</a>
+                        <a href="#" class="fas fa-trash"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>flower pot</h3>
+                    <div class="price">$12.99</div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/img-5.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">add to cart</a>
+                        <a href="#" class="fas fa-trash"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>flower box</h3>
+                    <div class="price">$12.99</div>
+                </div>
+            </div>
+            
+            <div class="box">
+                <div class="image">
+                    <img src="images/img-1.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">add to cart</a>
+                        <a href="#" class="fas fa-trash"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>flower box</h3>
+                    <div class="price">$12.99</div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- product section ends -->
+    
+    <!-- contact section starts -->
+    <section class="contact" id="contact">
+        
+        <h1 class="heading"> <span> contact </span> us </h1>
+
+        <div class="row">
+
+            <form action="">
+                <input type="text"  placeholder="name" class="box-1">
+                <input type="email"  placeholder="email" class="box-1">
+                <input type="number"  placeholder="number" class="box-1">
+                <textarea name="" class="box-1" placeholder="message" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message" class="btn">
+            </form>
+
+            <div class="image-contact">
+                <img src="/images/contact-img1.jpg" alt="">
+            </div>
+        </div>
+    
+    </section>
+    <!-- contact section ends -->
+
+    <!-- footer section starts -->
+    <section class="footer">
+        
+        <div class="box-container2">
+            
+            <div class="box2">
+                <h3>quick links</h3>
+                <a href="#">Home</a>
+                <a href="#">Products</a>
+                <a href="#">Contact</a>
+            </div>
+        
+            <div class="box2">
+                <h3>extra links</h3>
+                <a href="#">my account</a>
+                <a href="#">my order</a>
+                <a href="#">my favorite</a>
+            </div>
+
+            <div class="box2">
+                <h3>locations</h3>
+                <a href="#">Cairo</a>
+                <a href="#">Giza</a>
+                <a href="#">Alex</a>
+            </div>
+
+            <div class="box2">
+                <h3>contact info</h3>
+                <a href="#">+123-456-789</a>
+                <a href="#">example@gmail.com</a>
+                <img src="/images/payment.png" alt="">
+            </div>
+        </div>
+        <div class="up">
+        <a class="fa fa-circle-arrow-up fa-4x"></a>
+        </div>
+        
+    </section>
+
+    <!-- footer section ends -->
+
+<script src="java/app.js"></script>
+</body>
+</html>
